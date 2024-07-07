@@ -36,6 +36,7 @@ export const Github = (props) => {
   );
 };
 
+
 export const Twitter = (props) => {
   return (
     <svg
@@ -73,8 +74,6 @@ export const Facebook = (props) => {
     </svg>
   );
 };
-
-
 
 export const YinYang = (props) => {
   return (
