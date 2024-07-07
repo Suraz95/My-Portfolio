@@ -77,7 +77,7 @@ const SocialIcons = (props) => {
           target="_blank"
           href={"https://www.linkedin.com/in/shaik-suraz/"}
         >
-         <TfiLinkedin />
+         <TfiLinkedin color={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </a>
       </motion.div>
       
